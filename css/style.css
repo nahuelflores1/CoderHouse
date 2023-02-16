@@ -763,7 +763,7 @@ textarea{
     background-color: rgba(0, 0, 0, 0.329);
     font-weight: 600;
     letter-spacing: 2px;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 #navbar-text:hover{
