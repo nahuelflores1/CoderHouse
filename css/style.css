@@ -25,6 +25,7 @@ body{
 .stretch{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 
@@ -706,10 +707,6 @@ textarea{
 
 
 /*BOOSTRAP CSS*/
-#header-nav{
-    background-color: #aee71028;
-}
-
 .navbar-brand img{
     width: 100px;
 }
@@ -729,6 +726,7 @@ textarea{
     padding: .5em 1em;
 }
 
+
 @media screen and (min-width:992px) {
     .navbar-brand img{
         width: 100px;
@@ -743,7 +741,7 @@ textarea{
 .container-navbar{
     display: flex;
     justify-content: space-around;
-    align-items: center
+    align-items: center;
 }
 
 .a-nav{
@@ -760,12 +758,56 @@ textarea{
 
 #navbar-text{
     transform: skew(-5deg);
-    background-color: rgba(0, 0, 0, 0.329);
     font-weight: 600;
     letter-spacing: 2px;
     border-bottom: 2px solid black;
+    margin: 10px;
 }
 
 #navbar-text:hover{
-    color: rgb(174, 231, 16);;
+    border-bottom: 2px solid #AEE710;;
+}
+
+#navbar-text:hover{
+    color: rgb(174, 231, 16);
+}
+
+.slide img{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+
+.carousel-indicators .active{
+    background-color: #AEE710;
+}
+
+.carousel-control-prev-icon{
+
+    padding: 20px;
+}
+
+.carousel-control-prev-icon:hover{
+    padding: 30px;
+}
+
+.carousel-control-next-icon{
+
+    padding: 20px;
+}
+
+.carousel-control-next-icon:hover{
+    padding: 30px;
+}
+
+.container-fluid{
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #0d1006b0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
 }
