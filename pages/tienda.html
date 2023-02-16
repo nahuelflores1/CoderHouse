@@ -14,7 +14,7 @@
     <title>NOTICIAS RACING</title>
 </head>
 
-<body style="background-color: rgba(0, 0, 0, 0.979);">
+<body>
     <header>
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
@@ -70,7 +70,7 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="main-tienda">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -85,7 +85,7 @@
                     <img src="../img/icon/wallpaperbetter.com_3840x2160.jpg" style="object-position: top center;"
                         class="d-block" alt="...">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item photo-ae86">
                     <img src="../img/icon/wp3149997-japan-cars-wallpapers.jpg" class="d-block" alt="...">
                 </div>
                 <div class="carousel-item">
@@ -103,16 +103,15 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-
-        <div class="form-catalogo">
+        <div class="container-search-menu">
             <div>
                 <div class="container-search-tienda">
                     <form>
-                        <div class="container">
+                        <div class="container-search d-flex">
                             <span>SELECCIONA TU VEHICULO</span>
                             <div class="row">
                                 <div class="col-2">
-                                    <select name="Ano" id="">
+                                    <select class="container-select" name="Ano" id="">
                                         <option value="">2022</option>
                                         <option value="">2021</option>
                                         <option value="">2020</option>
@@ -128,7 +127,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-2">
-                                    <select name="Marca" id="">
+                                    <select class="container-select" name="Marca" id="">
                                         <option value="">Toyota</option>
                                         <option value="">Fiat</option>
                                         <option value="">Renault</option>
@@ -144,7 +143,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-2">
-                                    <select name="Modelo" id="">
+                                    <select class="container-select" name="Modelo" id="">
                                         <option value="">Siena</option>
                                         <option value="">Camry</option>
                                         <option value="">m240i</option>
@@ -160,7 +159,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-2">
-                                    <select name="SubModelo" id="">
+                                    <select class="container-select" name="SubModelo" id="">
                                         <option value="">Base</option>
                                         <option value="">AWD</option>
                                     </select>
@@ -175,65 +174,80 @@
                     </form>
                 </div>
             </div>
-            <div class="catalogo-general">
-                <div class="catalogo-tienda">
-                    <div class="cajas-productos">
-                        <a href="">
-                            <img src="../img/productos-tienda/brakes-icon.jpg" alt="">
-                            <h2>Frenos</h2>
-                        </a>
+            <div class="container">
+                <div class="row container-row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="container-card" style="">
+                            <img src="../img/productos-tienda/brakes-icon.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">Frenos</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="cajas-productos">
-                        <a href="https://throtl.com/pages/category-page">
-                            <img src="../img/productos-tienda/wheels-icon.jpg" alt="">
-                            <h2>Llantas</h2>
-                        </a>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="container-card" style="">
+                            <img src="../img/productos-tienda/cooling-icon.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">Refrigeracion</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="cajas-productos">
-                        <a href="">
-                            <img src="../img/productos-tienda/cooling-icon.jpg" alt="">
-                            <h2>Refrigeracion</h2>
-                        </a>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="container-card" style="">
+                            <img src="../img/productos-tienda/wheels-icon.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">Llantas</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="catalogo-tienda">
-                    <div class="cajas-productos">
-                        <a href="">
-                            <img src="../img/productos-tienda/suspension-icon.jpg" alt="">
-                            <h2>Suspencion</h2>
-                        </a>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="container-card" style="">
+                            <img src="../img/productos-tienda/suspension-icon.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">Suspencion</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="cajas-productos">
-                        <a href="">
-                            <img src="../img/productos-tienda/bumpers-icon.jpg" alt="">
-                            <h2>Parachoques</h2>
-                        </a>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="container-card" style="">
+                            <img src="../img/productos-tienda/bumpers-icon.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">Parachoques</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="cajas-productos">
-                        <a href="">
-                            <img src="../img/productos-tienda/forced-induction-icon.jpg" alt="">
-                            <h2>Induccion Forzada</h2>
-                        </a>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="container-card" style="">
+                            <img src="../img/productos-tienda/forced-induction-icon.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">Induccion Forzada</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="catalogo-tienda">
-                    <div class="cajas-productos">
-                        <a href="">
-                            <img src="../img/productos-tienda/filters-icon.jpg" alt="">
-                            <h2>Filtros de aire</h2>
-                        </a>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="container-card" style="">
+                            <img src="../img/productos-tienda/filters-icon.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">Filtros de aire</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="cajas-productos">
-                        <a href="">
-                            <img src="../img/productos-tienda/drivetrain-icon.jpg" alt="">
-                            <h2>Transmision</h2>
-                        </a>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="container-card" style="">
+                            <img src="../img/productos-tienda/drivetrain-icon.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">Transmision</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="cajas-productos">
-                        <a href="">
-                            <img src="../img/productos-tienda/interior-accessories-icon.jpg" alt="">
-                            <h2>Interior</h2>
-                        </a>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="container-card" style="">
+                            <img src="../img/productos-tienda/interior-accessories-icon.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-primary">Interior</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
