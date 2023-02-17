@@ -847,6 +847,10 @@ textarea {
         align-items: center;
     }
 
+    .container-search-tienda{
+        background-color: rgba(0, 0, 0, 0.705);
+    }
+
     .container-search-tienda span{
         margin-bottom: 10px;
         text-align: center;
