@@ -828,6 +828,10 @@ textarea {
     );
 }
 
+.text-center {
+    padding: 10px;
+}
+
 @media screen and (max-width: 812px) {
     .carousel-inner {
         width: 100%;
@@ -847,23 +851,40 @@ textarea {
         align-items: center;
     }
 
-    .container-search-tienda span{
+    .container-search-tienda span {
         margin-bottom: 10px;
         text-align: center;
         align-items: center;
         margin-right: 0;
     }
 
-    .container-search-tienda form select{
+    .container-search-tienda form select {
         margin: 6px;
         transform: none;
     }
 
-    .container-search-tienda form input{
+    .container-search-tienda form input {
         margin: 10px 0px;
         color: white;
         background-color: red;
         transform: none;
-        margin-left: 0
-    };
+        margin-left: 0;
+    }
+
+    .text-center {
+        padding: 10px !important;
+    }
+
+    .container {
+        margin: 5px;
+        flex-direction: column;
+    }
+
+    #navbar-text {
+        transform: none;
+    }
+
+    .nav-link{
+        background-color: rgba(0, 0, 0, 0.397);
+    }
 }
