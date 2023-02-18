@@ -64,7 +64,7 @@ body {
 
 .garage-vehicles {
     width: 600px;
-    background-color: #aee71031;
+    background-color: #aee71079;
     padding: 5px;
     margin: 40px;
     border-radius: 20px;
@@ -92,6 +92,8 @@ body {
 }
 
 .garage-vehicles p {
+    letter-spacing: 1px;
+    color: black;
     margin: 30px 4px;
     font-size: 16x;
     font-weight: bolder;
@@ -104,13 +106,15 @@ body {
 }
 
 .historia-container {
-    margin: 50px 50px;
+    margin: 50px;
     display: flex;
     justify-content: center;
+
 }
 
 .historia-container .historia {
-    width: 100%;
+    width: 80%;
+    height: 100%;
     align-items: center;
     flex-wrap: nowrap;
     display: flex;
@@ -131,7 +135,7 @@ body {
     height: 550px;
     background-color: #aee71031;
     color: rgb(255, 255, 255);
-    width: 850px;
+    height: 100%;
 }
 
 /*MENU=NOTICIAS RACING*/
@@ -625,10 +629,12 @@ th:last-child {
     justify-content: space-evenly;
     margin: 80px 0px 200px 0px;
     flex-wrap: wrap;
+    color: white;
+    font-weight: 300;
 }
 
 .form {
-    background-color: rgba(255, 255, 255, 0.253);
+    background-color: rgba(100, 129, 86, 0.692);
     width: 500px;
     padding: 20px;
 }
@@ -658,6 +664,11 @@ th:last-child {
 textarea {
     width: 100%;
     border-radius: 10px;
+}
+
+.form-contact h2{
+    color: black;
+    font-weight: 800;
 }
 
 .form-contact button {
@@ -802,6 +813,14 @@ textarea {
     border: 1px solid black;
 }
 
+#btn-footer {
+    color: black;
+    background-color: #aee710;
+    font-weight: 600;
+    border: 1px solid black;
+    width: 25px;
+    height: 30px;
+}
 .btn:hover {
     background-color: brown;
     color: #aee710;
@@ -828,6 +847,39 @@ textarea {
     );
 }
 
+.text-center {
+    display: flex;
+    justify-content: center;
+}
+
+.text-center .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-3 {
+    padding: 4px !important;
+}
+
+.container-card:hover{
+    background-color: white;
+}
+
+.nav-item-tienda{
+    border-radius: 10px;
+    background-color:#aee710;
+    transform: skew(-5deg);
+    color: black;
+    font-weight: 900;
+}
+
+.nav-link-tienda{
+    color: black !important;
+}
+
+
+
 @media screen and (max-width: 812px) {
     .carousel-inner {
         width: 100%;
@@ -847,27 +899,93 @@ textarea {
         align-items: center;
     }
 
-    .container-search-tienda{
-        background-color: rgba(0, 0, 0, 0.705);
-    }
-
-    .container-search-tienda span{
+    .container-search-tienda span {
         margin-bottom: 10px;
         text-align: center;
         align-items: center;
         margin-right: 0;
     }
 
-    .container-search-tienda form select{
-        margin: 5px;
+    .container-search-tienda form select {
+        margin: 6px;
         transform: none;
     }
 
-    .container-search-tienda form input{
+    .container-search-tienda form input {
         margin: 10px 0px;
         color: white;
         background-color: red;
         transform: none;
-        margin-left: 0
-    };
-}
+        margin-left: 0;
+    }
+
+    .text-center {
+        padding: 10px !important;
+    }
+
+    .container {
+        margin: 5px;
+        flex-direction: column;
+    }
+
+    #navbar-text {
+        transform: none;
+        border-radius: 10px;
+        border-bottom: none;
+        text-align: center;
+    }
+
+    #navbar-text:hover {
+        transform: skew(-5deg);
+    }
+
+    .nav-link {
+        background-color: rgba(0, 0, 0, 0.397);
+    }
+
+    .row-navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .historia-container .historia {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .historia-container img {
+
+        width: 330px;
+        height: 350px;
+        object-fit: cover;
+        object-position: 0 1px;
+    }
+
+    .historia-container p {
+        margin-top: 20px;
+        width: 350px;
+        height: 100%;
+    }
+
+    .form-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    
+    .form{
+        margin-top: 40px;
+        width: 340px;
+        text-align: center;
+    }
+
+    .text-form h2{
+        margin: 15px;
+    }
+
+    .nav-item-tienda{
+        transform: none;
+
+    }
+}   

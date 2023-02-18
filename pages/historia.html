@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>HISTORIA</title>
 </head>
@@ -19,7 +20,7 @@
         <div id="background">
             <img src="../img/icon/kenblockMustang.jpg" class="stretch" alt="">
         </div>
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a href="" class="navbar-brand d-lg-none">
                     <img src="../img/icon/sodapdf-converted (1).png" alt="">
@@ -31,7 +32,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="container d-flex container-navbar">
-                        <div class="row">
+                        <div class="row row-navbar">
                             <div class="col-4">
                                 <ul class="navbar-nav mx-auto">
                                     <li class="nav-item">
@@ -46,14 +47,14 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row row-navbar">
                             <div class="col-4">
                                 <a href="" class="navbar-brand d-none d-lg-block">
                                     <img src="../img/icon/sodapdf-converted (1).png" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row row-navbar">
                             <div class="col-4">
                                 <ul class="navbar-nav mx-auto">
                                     <li class="nav-item">
@@ -62,16 +63,18 @@
                                     <li class="nav-item">
                                         <a class="nav-link" id="navbar-text" href="noticias-racing.html">Noticias</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="navbar-text" href="tienda.html">Tienda</a>
+                                    <li class="nav-item nav-item-tienda">
+                                        <a class="nav-link nav-link-tienda" id="navbar-text" href="tienda.html">Tienda</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </nav>
     </header>
+
     <main>
         <div class="historia-container">
             <div class="historia">
@@ -79,7 +82,7 @@
                 <p>
                     La carrera de rally de Ken Block comenzó en 2005. Su habilidad y control del auto se hicieron
                     evidentes rápidamente y Block acertadamente atrapó al Novato del Año esa temporada en el Campeonato
-                    de Rally América. Desde entonces, Block ha seguido compitiendo en la serie, acumulando numerosas
+                    de Rally America. Desde entonces, Block ha seguido compitiendo en la serie, acumulando numerosas
                     victorias generales y muchas apariciones en el podio. También ha acumulado cinco medallas en los X
                     Games desde el comienzo de su carrera, incluida la plata más reciente en los Global X Games
                     Barcelona RallyCross en 2013. Además de su desempeño en el automóvil, Block ha sido una fuerza
@@ -108,12 +111,25 @@
             </div>
         </div>
     </main>
+
     <footer class="footer">
-        <div>
-            <img src="../img/icon/icons8-twitter-48.png" alt="">
-            <img src="../img/icon/icons8-instagram-48.png" alt="">
-            <img src="../img/icon/icons8-facebook-nuevo-48.png" alt="">
-            <h4>Block. All Rights Reserved</h4>
+        <section class="text-center">
+            <a class="btn btn-outline-light btn-floating m-1" id="btn-footer" href="#!" role="button">
+                <i class="bi bi-instagram"></i></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" id="btn-footer" href="#!" role="button">
+                <i class="bi bi-twitter"></i></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" id="btn-footer" href="#!" role="button">
+                <i class="bi bi-facebook"></i></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" id="btn-footer" href="#!" role="button">
+                <i class="bi bi-github"></i></a>
+        </section>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            <a class="text-white" href="">Block. All Rights Reserved</a>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
