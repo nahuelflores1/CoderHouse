@@ -862,6 +862,24 @@ textarea {
     padding: 4px !important;
 }
 
+.container-card:hover{
+    background-color: white;
+}
+
+.nav-item-tienda{
+    border-radius: 10px;
+    background-color:#aee710;
+    transform: skew(-5deg);
+    color: black;
+    font-weight: 900;
+}
+
+.nav-link-tienda{
+    color: black !important;
+}
+
+
+
 @media screen and (max-width: 812px) {
     .carousel-inner {
         width: 100%;
@@ -965,4 +983,9 @@ textarea {
     .text-form h2{
         margin: 15px;
     }
-}
+
+    .nav-item-tienda{
+        transform: none;
+
+    }
+}   
