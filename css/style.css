@@ -918,7 +918,7 @@ textarea {
     .container-search-tienda form input {
         margin: 10px 0px;
         color: white;
-        background-color: red;
+        background-color: rgba(255, 0, 0, 0.979);
         transform: none;
         margin-left: 0;
     }
