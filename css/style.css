@@ -63,17 +63,23 @@ body {
 }
 
 .garage-vehicles {
-    width: 600px;
     background-color: #aee71079;
     padding: 5px;
-    margin: 40px;
+    margin: 20px;
     border-radius: 20px;
 }
 
 .garage-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contenedor-garage {
+    width: 40%;
+    display: flex;
+    justify-content: center;
 }
 
 .garage-vehicles img {
@@ -109,13 +115,12 @@ body {
     margin: 50px;
     display: flex;
     justify-content: center;
-
 }
 
 .historia-container .historia {
     width: 80%;
     height: 100%;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: nowrap;
     display: flex;
     justify-content: center;
@@ -128,7 +133,12 @@ body {
     margin: 0px 50px;
 }
 
+.historia img {
+    transform: translateZ(0);
+}
+
 .historia p {
+    width: 880p;
     border-radius: 10px;
     padding: 20px;
     font-size: 15px;
@@ -191,6 +201,7 @@ body {
 }
 
 .cuadro-noticias img {
+    object-fit: cover;
     width: 100%;
 }
 
@@ -635,7 +646,7 @@ th:last-child {
 
 .form {
     background-color: rgba(100, 129, 86, 0.692);
-    width: 500px;
+    width: 450px;
     padding: 20px;
 }
 
@@ -666,7 +677,7 @@ textarea {
     border-radius: 10px;
 }
 
-.form-contact h2{
+.form-contact h2 {
     color: black;
     font-weight: 800;
 }
@@ -734,7 +745,7 @@ textarea {
     box-shadow: none;
 }
 
-#navbar-text {
+.navbar-text {
     transform: skew(-5deg);
     font-weight: 600;
     letter-spacing: 2px;
@@ -742,11 +753,11 @@ textarea {
     margin: 10px;
 }
 
-#navbar-text:hover {
+.navbar-text:hover {
     border-bottom: 2px solid #aee710;
 }
 
-#navbar-text:hover {
+.navbar-text:hover {
     color: rgb(174, 231, 16);
 }
 
@@ -786,12 +797,6 @@ textarea {
     border: 2px solid #aee710;
 }
 
-.container {
-    width: 10;
-    display: flex;
-    justify-content: center;
-}
-
 .container-row {
     display: flex;
     justify-content: center;
@@ -813,7 +818,7 @@ textarea {
     border: 1px solid black;
 }
 
-#btn-footer {
+.btn-footer {
     color: black;
     background-color: #aee710;
     font-weight: 600;
@@ -862,25 +867,31 @@ textarea {
     padding: 4px !important;
 }
 
-.container-card:hover{
+.container-card:hover {
     background-color: white;
 }
 
-.nav-item-tienda{
+.nav-item-tienda {
     border-radius: 10px;
-    background-color:#aee710;
+    background-color: #aee710;
     transform: skew(-5deg);
     color: black;
     font-weight: 900;
 }
 
-.nav-link-tienda{
+.nav-link-tienda {
     color: black !important;
 }
 
+nav {
+    align-items: 0 !important ;
+}
 
+@media screen and (max-width: 992px) {
+    .col-nav {
+        width: none !important;
+    }
 
-@media screen and (max-width: 812px) {
     .carousel-inner {
         width: 100%;
         height: 500px;
@@ -914,7 +925,7 @@ textarea {
     .container-search-tienda form input {
         margin: 10px 0px;
         color: white;
-        background-color: red;
+        background-color: rgba(255, 0, 0, 0.979);
         transform: none;
         margin-left: 0;
     }
@@ -923,38 +934,30 @@ textarea {
         padding: 10px !important;
     }
 
-    .container {
-        margin: 5px;
-        flex-direction: column;
-    }
-
-    #navbar-text {
+    .navbar-text {
         transform: none;
         border-radius: 10px;
         border-bottom: none;
         text-align: center;
     }
 
-    #navbar-text:hover {
+    .navbar-text:hover {
         transform: skew(-5deg);
-    }
-
-    .nav-link {
-        background-color: rgba(0, 0, 0, 0.397);
     }
 
     .row-navbar {
         display: flex;
         justify-content: center;
+        width: 0%;
     }
 
     .historia-container .historia {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .historia-container img {
-
         width: 330px;
         height: 350px;
         object-fit: cover;
@@ -967,25 +970,72 @@ textarea {
         height: 100%;
     }
 
-    .form-contact{
+    .form-contact {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 0;
     }
-    
-    .form{
+
+    .form {
         margin-top: 40px;
-        width: 340px;
+        width: 90%;
         text-align: center;
     }
 
-    .text-form h2{
+    .text-form h2 {
         margin: 15px;
     }
 
-    .nav-item-tienda{
+    .nav-item-tienda {
         transform: none;
-
     }
-}   
+}
+
+@media screen and (max-width: 870px) {
+    /* .garage-vehicles {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    } */
+
+    .garage-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor-garage {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+
+    .historia-container .historia {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .historia-container img {
+        width: 330px;
+        height: 350px;
+        object-fit: cover;
+        object-position: 0 1px;
+    }
+
+    .historia-container p {
+
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 840px){
+    
+}
