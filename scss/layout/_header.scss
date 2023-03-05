@@ -1,0 +1,59 @@
+.navbar {
+    .navbar-brand img {
+        width: 100px;
+    }
+    .container-fluid {
+        margin: 10px 0px;
+        padding: 10px;
+        background-color: #0d1006b0;
+        .navbar-mov {
+            background-color: rgba(0, 0, 0, 0.774);
+            &:focus {
+                box-shadow: none;
+            }
+        }
+        .container-navbar {
+            display: flex;
+            justify-content: space-around;
+            .navbar-nav {
+                .nav-item-tienda {
+                    border-radius: 15px;
+                    background-color: #aee710;
+                    color: black;
+                    font-weight: 900;
+                    transform: skew(0);
+                }
+                .nav-item-tienda {
+                    border-radius: 10px;
+                    background-color: #aee710;
+                    transform: skew(-5deg);
+                    color: black;
+                    font-weight: 900;
+                }
+                .navbar-text {
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                    margin: 10px;
+                    &:hover {
+                        border-bottom: 2px solid #aee710;
+                        color: rgb(174, 231, 16);
+                    }
+                }
+                .nav-item {
+                    .nav-link-tienda {
+                        color: black !important;
+                    }
+                    .nav-link {
+                        color: #ffff;
+                        font-size: 1.1em;
+                        padding: 0.5em 1em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+nav {
+    align-items: 0 !important ;
+}

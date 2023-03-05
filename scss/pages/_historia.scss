@@ -1,0 +1,90 @@
+// .historia-container {
+//     margin: 50px;
+//     display: flex;
+//     justify-content: center;
+//     .historia {
+//         width: 80%;
+//         height: 100%;
+//         align-items: flex-start;
+//         flex-wrap: nowrap;
+//         display: flex;
+//         justify-content: center;
+//         p {
+//             letter-spacing: 1px;
+//             border-radius: 10px;
+//             padding: 20px;
+//             font-size: 15px;
+//             height: 550px;
+//             background-color: rgba(19, 27, 15, 0.822);
+//             color: rgb(255, 255, 255);
+//             height: 100%;
+//         }
+//         img {
+//             transform: translateZ(0);
+//         }
+//     }
+// }
+
+.historia-container {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    img {
+        height: 600px;
+        background-color: #aee71031;
+        border-radius: 10px;
+        margin: 0px 50px;
+    }
+    .historia {
+        width: 80%;
+        height: 100%;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: center;
+        p {
+            letter-spacing: 1px;
+            border-radius: 10px;
+            padding: 20px;
+            font-size: 15px;
+            height: 550px;
+            background-color: rgba(19, 27, 15, 0.822);
+            color: rgb(255, 255, 255);
+            height: 100%;
+        }
+        img {
+            transform: translateZ(0);
+        }
+    }
+}
+
+// .historia-container .historia {
+//     width: 80%;
+//     height: 100%;
+//     align-items: flex-start;
+//     flex-wrap: nowrap;
+//     display: flex;
+//     justify-content: center;
+// }
+
+// .historia-container img {
+//     height: 600px;
+//     background-color: #aee71031;
+//     border-radius: 10px;
+//     margin: 0px 50px;
+// }
+
+// .historia img {
+//     transform: translateZ(0);
+// }
+
+// .historia p {
+//     letter-spacing: 1px;
+//     border-radius: 10px;
+//     padding: 20px;
+//     font-size: 15px;
+//     height: 550px;
+//     background-color: rgba(19, 27, 15, 0.822);
+//     color: rgb(255, 255, 255);
+//     height: 100%;
+// }
