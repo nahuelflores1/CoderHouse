@@ -46,7 +46,7 @@
         display: flex;
         align-items: center;
         .container-select {
-            border: 2px solid #aee710;
+            border: 2px solid $primary-color;
         }
         span {
             display: flex;
@@ -55,7 +55,7 @@
             font-weight: 700;
             font-size: 20px;
             text-align: center;
-            color: #aee710;
+            color: $primary-color;
         }
         form {
             select {

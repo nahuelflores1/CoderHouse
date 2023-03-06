@@ -1,3 +1,6 @@
+/*Base-Colors*/
+@import "./base/colors";
+
 /*Base*/
 @import "./base/general";
 @import "./base/resets";
@@ -17,7 +20,6 @@
 /*Pages-Contacto*/
 @import "./pages/contacto";
 
-
 /*Pages-Notiicas-Racing*/
 @import "./pages/noticias";
 
@@ -26,7 +28,3 @@
 
 /*Media-Quieries*/
 @import "./base/media-queries";
-
-/*Base-Colors*/
-@import "./base/colors";
-
