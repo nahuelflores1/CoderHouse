@@ -7,7 +7,7 @@
 .fondo-noticias {
     background-color: #aee71018;
     .text-banner {
-        background-color: #ace01ea1;
+        background-color: $primary-color-oscuro;
         color: white;
         display: flex;
         align-items: center;
@@ -58,7 +58,7 @@
             h4 {
                 padding: 8px;
                 color: white;
-                background-color: #aee7103a;
+                background-color: $primary-color-oscuro;
                 font-size: 20px;
             }
         }
