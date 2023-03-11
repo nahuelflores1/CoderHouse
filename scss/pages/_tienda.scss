@@ -45,15 +45,20 @@
         justify-content: center;
         display: flex;
         align-items: center;
+
+        .container-search{
+            display: flex;
+            align-items: center;
+        }
         .container-select {
             border: 2px solid $primary-color;
         }
         span {
             display: flex;
             align-items: center;
-            margin-right: 25px;
             font-weight: 700;
             font-size: 20px;
+            padding: 0px 20px;
             text-align: center;
             color: $primary-color;
         }

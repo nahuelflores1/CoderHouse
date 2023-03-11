@@ -86,16 +86,14 @@
         flex-direction: column;
         align-items: center;
         margin: 0;
-    }
-
-    .form {
-        margin-top: 40px;
-        width: 90%;
-        text-align: center;
-    }
-
-    .text-form h2 {
-        margin: 15px;
+        .form {
+            margin-top: 40px;
+            width: 90%;
+            text-align: center;
+            .text-form h2 {
+                margin: 15px;
+            }
+        }
     }
 
     .nav-item-tienda {
@@ -108,10 +106,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .contenedor-garage {
-        width: 80%;
+        .contenedor-garage {
+            width: 80%;
+        }
     }
 }
 
@@ -136,4 +133,3 @@
         height: 100%;
     }
 }
-

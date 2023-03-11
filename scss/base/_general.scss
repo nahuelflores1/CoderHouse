@@ -1,3 +1,13 @@
+/*Resets*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
 /*Base-General*/
 body {
     display: flex;
