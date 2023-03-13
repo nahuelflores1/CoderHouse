@@ -226,12 +226,13 @@ nav {
     text-align: center;
     display: flex;
     justify-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+    align-items: center; }
     .form-contact .contact h2 {
       font-size: 20px; }
     .form-contact .contact p {
       letter-spacing: 1px;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 500; }
     .form-contact .contact img {
       width: 30px;
